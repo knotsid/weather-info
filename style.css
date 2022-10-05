@@ -5,7 +5,9 @@
 }
 
 body {
-    background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,6 +26,18 @@ input {
     font-size: 1rem;
     padding: 1rem;
     min-width: 300px;
+}
+
+input:hover {
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+    transition: all ease 0.4s;
 }
 
 input:focus {
